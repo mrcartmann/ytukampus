@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Redirect</title>
+</head>
+<body>
+    <script>
+        const links = [
+            "https://quizizz.com/embed/presentation/66a4ead417c88b1dbd8f658e",
+            "https://quizizz.com/embed/presentation/66a62a22e48ff6984f86fb91",
+            "https://quizizz.com/embed/presentation/66a62aaa4e08326ef93d994d",
+	 "https://quizizz.com/embed/presentation/66a62ae6fbb8de3bafc7b9e5",
+            "https://quizizz.com/embed/presentation/66a62b0e5208849bce523363",
+            "https://quizizz.com/embed/presentation/66a62b51d80578612785021f",
+	     "https://quizizz.com/embed/presentation/66a62b82d80578e558850221",
+            "https://quizizz.com/embed/presentation/66a62bade531478bdb6231c0”",
+	 "https://quizizz.com/embed/presentation/66a62bda43aca71663b93278",
+            "https://quizizz.com/embed/presentation/66a62c1fe5314784916231dc",
+            "https://quizizz.com/embed/presentation/66a62c5044ab7894995ef5f0",
+            "https://quizizz.com/embed/presentation/66a62c79798e54503badca5e"
+        ];
+
+        // Rastgele bir bağlantı seç
+        const randomLink = links[Math.floor(Math.random() * links.length)];
+
+        // Seçilen bağlantıya yönlendir
+        window.location.href = randomLink;
+    </script>
+</body>
+</html>
